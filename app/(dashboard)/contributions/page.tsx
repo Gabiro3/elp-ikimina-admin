@@ -23,7 +23,6 @@ async function getContributions() {
     `,
     )
     .order("created_at", { ascending: false })
-  console.log(data)
 
   return data || []
 }
@@ -48,8 +47,6 @@ async function getPendingContributions() {
     )
     .eq("status", "pending")
     .order("created_at", { ascending: false })
-
-  console.log(data)
 
   return data || []
 }

@@ -5,7 +5,9 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'ELP Ikimina | Admin Dashboard',
   description: 'This is an admin dashboard for the ELP IKIMINA APP.',
-  generator: 'v0.app',
+  icons: {
+    icon: '/ikimina_logo.png',
+  },
 }
 
 export default function RootLayout({
